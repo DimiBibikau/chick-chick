@@ -47,7 +47,7 @@
                 </div>
             </div>
         </section>
-        <section class="price">
+        <section class="price" id="price">
             <div class="container">
                 <h2 class="price__title">Our prices</h2>
                 <p class="price__tagline">...priceless, but still</p>
@@ -85,7 +85,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <h2 class="about__title">We help men look nice!</h2>
                 <p class="about__description">Chik chik is much more than just barber. This is the place where you will be helped to find your own unique style. It is worth trusting our masters once, and, believe me, the new image will not leave you indifferent. Men's haircuts and dangerous shaves are our speciality, and we believe our barbers are the best at it.
@@ -109,7 +109,7 @@
                 </ul>
             </div>
         </section>
-        <section class="booking">
+        <section class="booking" id="booking">
             <div class="container">
                 <h2 class="booking__title">How to book a visit</h2>
                 <ol class="booking__list">
@@ -173,11 +173,78 @@
                                 <span class="radio__label radio__label-prof">Anthony</span>
                             </label>
                         </fieldset>
+                        <fieldset class="booking__fieldset">
+                            <legend class="booking__legend">Choose date and time</legend>
+                            <fieldset class="booking__fieldset booking__fieldset_date">
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_month" id="">
+                                    <span class="radio__label radio__label-date">January</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_month" id="">
+                                    <span class="radio__label radio__label-date">February</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_month" id="">
+                                    <span class="radio__label radio__label-date">March</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="booking__fieldset booking__fieldset_date">
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_day" id="">
+                                    <span class="radio__label radio__label-date">January 30th</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_day" id="">
+                                    <span class="radio__label radio__label-date">February 1st</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_day" id="">
+                                    <span class="radio__label radio__label-date">March 3rd</span>
+                                </label>
+                            </fieldset>
+                            <fieldset class="booking__fieldset booking__fieldset_date">
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_time" id="">
+                                    <span class="radio__label radio__label-date">10:00 - 11:00</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_time" id="">
+                                    <span class="radio__label radio__label-date">11:00 - 12:00</span>
+                                </label>
+                                <label for="" class="radio">
+                                    <input class="radio__input" type="radio" name="date_time" id="">
+                                    <span class="radio__label radio__label-date">13:00 - 14:00</span>
+                                </label>
+                            </fieldset>
+                        </fieldset>
                     </div>
+                    <button class="booking__button">Book</button>
                 </form>
             </div>
         </section>
     </main>
-
+    <footer>
+        <div class="container">
+            <div class="footer__menu">
+                <img class="header__logo" src="/storage/img/logo_main.png" alt="Chick-chick barbershop logo">
+                <nav class="footer__navigation navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="#price" class="navigation__link">Price</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a href="#about" class="navigation__link">About</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__authors">
+                    <p>Designer: Anastasia Ilina</p>
+                    <p>Developer: Dzmitry Bibikau</p>
+                </div>
+            </div>
+            <p class="footer__credit">© Chick-chick, 2023</p>
+        </div>
+    </footer>
 </body>
 </html>
